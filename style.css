@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f0fa;
+    color: #333;
+}
+
+header {
+    background-color: #7e57c2; /* Roxo mais claro */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 32px;
+}
+
+main {
+    padding: 30px;
+    text-align: center;
+}
+
+.album {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.photo-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.photo-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.date {
+    color: #6a1b9a;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.caption {
+    color: #555;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #7e57c2; /* Roxo mais claro */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
